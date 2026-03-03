@@ -44,4 +44,4 @@ npm start
 ## 👨‍💻 Author
 **Mohsan Raza**
 * BS Computer Science Graduate
-* [Link to your LinkedIn Profile]
+* [www.linkedin.com/in/mohsin-raza-cs]
