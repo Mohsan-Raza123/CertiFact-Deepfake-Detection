@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Oswald:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* THE LUXURY RESET
+   This forces the browser to use our deep black background 
+   and premium fonts immediately.
+*/
+
+body {
+  @apply bg-brand-black text-white antialiased;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; /* Prevents horizontal scroll from animations */
+}
+
+/* HEADINGS
+   Forces all h1-h6 tags to use the strong "Oswald" font 
+   and uppercase styling by default.
+*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+/* CUSTOM SCROLLBAR 
+   Standard grey scrollbars ruin the luxury vibe. 
+   This makes it sleek and dark.
+*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00AEEF; /* Bugatti Blue on hover */
+}

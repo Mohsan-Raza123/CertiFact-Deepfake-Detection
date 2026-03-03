@@ -1,0 +1,37 @@
+/* Add these styles to the bottom of AuthLayout.css */
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #aaa;
+  margin: 20px 0;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ddd;
+}
+
+.auth-divider span {
+  padding: 0 10px;
+}
+
+.google-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px; /* Space between icon and text */
+  border: 1px solid #ddd !important;
+  background-color: #fff !important;
+  color: #555 !important;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.google-button:hover {
+  background-color: #f8f9fa !important;
+  border-color: #ccc !important;
+}
